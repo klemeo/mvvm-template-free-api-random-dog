@@ -27,6 +27,8 @@
                     android:id="@+id/pbPost"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:indeterminateDrawable="@drawable/spinner"
+                    android:indeterminateOnly="true"
                     android:visibility="visible"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
@@ -41,6 +43,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_margin="16dp"
+                android:background="#8BC34A"
                 android:text="Next" />
 
 
