@@ -9,7 +9,7 @@ object FragmentListenerUtils {
             ?: throw RuntimeException("$fragment must implement $listenerClass")
     }
 
-    fun <T> getFragmentListenerOrNull(fragment: Fragment, listenerClass: Class<T>): T? {
+    private fun <T> getFragmentListenerOrNull(fragment: Fragment, listenerClass: Class<T>): T? {
         val parentFragment = fragment.parentFragment
         val activity = fragment.activity
 

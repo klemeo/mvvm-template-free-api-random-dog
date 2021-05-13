@@ -55,8 +55,7 @@ class HomeFragment : Fragment() {
             when (it) {
                 is DogVS.Post -> {
                     imageView.setImageFitPlaceholderWithGlide(
-                        imageUrl = it.postVM.message,
-                        isRounded = false
+                        imageUrl = it.postVM.message
                     )
                 }
                 is DogVS.ShowLoader -> {
